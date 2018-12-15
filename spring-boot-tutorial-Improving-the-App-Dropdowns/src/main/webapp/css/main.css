@@ -1,4 +1,4 @@
-.navbar {
+ .navbar {
 	background-color: orange;
 	border-color: orange;
 }
@@ -27,6 +27,15 @@
 	font-weight: bold;
 }
 
+.navbar-default .navbar-nav > .open > a {
+	background: none !important;
+	color: yellow;
+}
+
+.navbar-default .navbar-nav > .open > a:focus {
+	color: white;
+}
+
 .panel > .panel-heading {
 	background-color: blue;
 	color: white;
@@ -47,5 +56,8 @@ textarea {
 	margin-bottom: 40px;
 }
 
-
-
+.homepage-status {
+	text-align: center;
+	margin-top: 30px;
+	font-size: larger;
+}
