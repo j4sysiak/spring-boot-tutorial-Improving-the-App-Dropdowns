@@ -19,6 +19,9 @@
  <p>startPage: ${startPage}</p>
  <p>endPage: ${endPage}</p>
  
+ 
+<c:if test="${page.totalPages != 1}"> 
+ 
 <div class="pagination">
 
 	<c:if test="${block != 0}">
@@ -53,7 +56,7 @@
 	
 </div>
  
-
+</c:if>
 
 
 
